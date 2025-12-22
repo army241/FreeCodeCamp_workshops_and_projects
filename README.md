@@ -1,23 +1,27 @@
-# FreeCodeCamp Workshops and Projects
-This repository contains my workshops, practice exercises, and small projects completed while learning through FreeCodeCamp.
+# FreeCodeCamp Workshops & Projects
 
-📌 Purpose
+This repository showcases my workshops, practice exercises, and small projects completed during my learning journey with **FreeCodeCamp**.
 
--Practice HTML and CSS fundamentals
--Apply concepts learned in FreeCodeCamp lessons
--Track my learning progress and
--improvements over time
+## 📌 Purpose
 
-🛠 Technologies Used
+* Strengthen and practice HTML and CSS fundamentals
+* Apply concepts learned in FreeCodeCamp lessons
+* Track learning progress and development over time
 
--HTML5
--CSS3
--Git & GitHub
+## 🛠 Technologies Used
 
-📂 Repository Structure
+* HTML5
+* CSS3**
+* Git & GitHub
 
-The repository is organized into two main folders:
--workshops/ – Contains FreeCodeCamp workshops and practice exercises.
--projects/ – Contains completed small projects applying the concepts learned.
+## 📂 Repository Structure
 
--Each folder is further organized by topic or project name for easy navigation.
+The repository is organized into two primary directories:
+
+* workshops/ – Contains FreeCodeCamp workshops and practice exercises.
+* projects/ – Contains completed small projects demonstrating the application of learned concepts.
+
+Each directory is further organized by topic or project name for easy navigation and reference.
+
+
+
