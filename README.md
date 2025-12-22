@@ -19,4 +19,5 @@ This repository contains my workshops, practice exercises, and small projects co
 The repository is organized into two main folders:
 -workshops/ – Contains FreeCodeCamp workshops and practice exercises.
 -projects/ – Contains completed small projects applying the concepts learned.
+
 -Each folder is further organized by topic or project name for easy navigation.
