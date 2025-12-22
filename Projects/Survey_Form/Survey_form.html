@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="Survey_form.css">
+</head>
+
+<body>
+  <main class="container">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">
+      Please fill out this survey form with your basic information.
+    </p>
+
+    <form id="survey-form">
+
+      <!-- Basic Info -->
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label id="name-label" for="name">
+          Name
+          <input id="name" type="text" name="name" required placeholder="John Doe">
+        </label>
+
+        <label id="email-label" for="email">
+          Email
+          <input id="email" type="email" name="email" required placeholder="john@gmail.com">
+        </label>
+
+        <label id="number-label" for="number">
+          Age
+          <input id="number" type="number" name="age" min="0" max="100" placeholder="25">
+        </label>
+      </fieldset>
+
+      <!-- Dropdown -->
+      <fieldset>
+        <legend>Preferences</legend>
+
+        <label for="dropdown">
+          Choose an option
+          <select id="dropdown" name="option">
+            <option value="">Select one</option>
+            <option value="1">Option One</option>
+            <option value="2">Option Two</option>
+            <option value="3">Option Three</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <!-- Radio -->
+      <fieldset>
+        <legend>Account Type</legend>
+
+        <label>
+          <input type="radio" name="account" value="business" checked>
+          Business
+        </label>
+
+        <label>
+          <input type="radio" name="account" value="personal">
+          Personal
+        </label>
+      </fieldset>
+
+      <!-- Checkbox -->
+      <fieldset>
+        <legend>Interests</legend>
+
+        <label>
+          <input type="checkbox" name="interest" value="1">
+          Option 1
+        </label>
+
+        <label>
+          <input type="checkbox" name="interest" value="2">
+          Option 2
+        </label>
+      </fieldset>
+
+      <!-- Textarea -->
+      <label for="comments">
+        Comments
+        <textarea id="comments" name="comments" placeholder="Write your comment here..."></textarea>
+      </label>
+
+      <input id="submit" type="submit" value="Submit">
+
+    </form>
+  </main>
+</body>
+</html>
