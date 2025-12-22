@@ -11,7 +11,7 @@ This repository showcases my workshops, practice exercises, and small projects c
 ## 🛠 Technologies Used
 
 * HTML5
-* CSS3**
+* CSS3
 * Git & GitHub
 
 ## 📂 Repository Structure
