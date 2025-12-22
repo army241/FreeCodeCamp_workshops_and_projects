@@ -5,7 +5,8 @@ This repository contains my workshops, practice exercises, and small projects co
 
 -Practice HTML and CSS fundamentals
 -Apply concepts learned in FreeCodeCamp lessons
--Track my learning progress and -improvements over time
+-Track my learning progress and
+-improvements over time
 
 🛠 Technologies Used
 
