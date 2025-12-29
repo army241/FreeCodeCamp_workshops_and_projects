@@ -1,0 +1,95 @@
+body{
+background-color: pink 
+}
+#playing-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background: #0f172a;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  height: 170px;
+  background: white;
+  border-radius: 12px;
+  padding: 10px;
+  border: 2px solid #000;
+  font-family: Georgia, serif;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+/* Middle suit */
+
+.middle {
+  display: flex;
+  flex-direction: column;   /* allows vertical stacking */
+  align-items: center;
+  align-self: center;
+  font-size: 32px;
+  gap: 6px;
+}
+
+
+
+/* Bottom corner */
+.right {
+  align-self: flex-end;
+  transform: rotate(180deg);
+}
+
+/* ===== SUITS ===== */
+
+/* Spade */
+.spade .left::before,
+.spade .right::before {
+  content: "A ♠";
+}
+
+.spade .middle::before {
+  content: "♠ ♠";
+}
+
+/* Heart */
+.heart {
+  color: red;
+}
+
+.heart .left::before,
+.heart .right::before {
+  content: "K ♥";
+}
+
+.heart .middle::before {
+  content: "♥\A♥\A♥";
+  white-space: pre;
+}
+
+/* Diamond */
+.diamond {
+  color: red;
+}
+
+.diamond .left::before,
+.diamond .right::before {
+  content: "Q ♦";
+}
+
+.diamond .middle::before {
+  content: "♦  ♦\A   ♦\A♦  ♦";
+  white-space: pre;
+}
+
+/* Club */
+.club .left::before,
+.club .right::before {
+  content: "J ♣";
+}
+
+.club .middle::before {
+  content: "♣ ♣";
+}
